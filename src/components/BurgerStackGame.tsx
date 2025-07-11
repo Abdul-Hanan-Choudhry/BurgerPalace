@@ -318,7 +318,7 @@ export default function BurgerStackGame({ onComplete, onClose }: BurgerStackGame
                     style={{ left: `${movingItemX}px` }}
                   >
                     <img
-                      src={currentComponent.image}
+                      src={currentComponent.image.replace('/src/assets/', '/assets/')}
                       alt={currentComponent.name}
                       className="w-20 h-auto drop-shadow-lg"
                       style={{ width: `${ITEM_WIDTH}px` }}

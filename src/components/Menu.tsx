@@ -189,7 +189,7 @@ export default function Menu({ onStartGame, onAddToCart }: MenuProps) {
               <div className="text-center mb-4">
                 <div className="relative inline-block">
                   <img
-                    src={item.image}
+                    src={item.image.replace('/src/assets/', '/assets/')}
                     alt={item.name}
                     className="w-32 h-32 object-contain mx-auto drop-shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300"
                   />
