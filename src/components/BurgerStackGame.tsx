@@ -8,14 +8,14 @@ interface BurgerStackGameProps {
 }
 
 const BURGER_COMPONENTS = [
-  { id: 'bottom-bun', name: 'Bottom Bun', image: '/src/assets/bottom-bun.png', order: 0 },
-  { id: 'meat', name: 'Meat Patty', image: '/src/assets/meat.png', order: 1 },
-  { id: 'cheese', name: 'Cheese', image: '/src/assets/cheese.png', order: 2 },
-  { id: 'lettuce', name: 'Lettuce', image: '/src/assets/letuce.png', order: 3 },
-  { id: 'tomato', name: 'Tomato', image: '/src/assets/tomato.png', order: 4 },
-  { id: 'onions', name: 'Onions', image: '/src/assets/onions.png', order: 5 },
-  { id: 'bacon', name: 'Bacon', image: '/src/assets/bacon-1.png', order: 6 },
-  { id: 'top-bun', name: 'Top Bun', image: '/src/assets/top-bun 1.png', order: 7 },
+  { id: 'bottom-bun', name: 'Bottom Bun', image: '/assets/bottom-bun.png', order: 0 },
+  { id: 'meat', name: 'Meat Patty', image: '/assets/meat.png', order: 1 },
+  { id: 'cheese', name: 'Cheese', image: '/assets/cheese.png', order: 2 },
+  { id: 'lettuce', name: 'Lettuce', image: '/assets/letuce.png', order: 3 },
+  { id: 'tomato', name: 'Tomato', image: '/assets/tomato.png', order: 4 },
+  { id: 'onions', name: 'Onions', image: '/assets/onions.png', order: 5 },
+  { id: 'bacon', name: 'Bacon', image: '/assets/bacon-1.png', order: 6 },
+  { id: 'top-bun', name: 'Top Bun', image: '/assets/top-bun 1.png', order: 7 },
 ];
 
 interface StackedItem {
@@ -343,7 +343,7 @@ export default function BurgerStackGame({ onComplete, onClose }: BurgerStackGame
                         }}
                       >
                         <img
-                          src={component?.image}
+                          src={component?.image?.replace('/src/assets/', '/assets/')}
                           alt={component?.name}
                           className="drop-shadow-lg"
                           style={{ 
@@ -397,7 +397,7 @@ export default function BurgerStackGame({ onComplete, onClose }: BurgerStackGame
                   {BURGER_COMPONENTS.slice(currentComponentIndex + 1).map((component) => (
                     <div key={component.id} className="text-center">
                       <img
-                        src={component.image}
+                        src={component.image.replace('/src/assets/', '/assets/')}
                         alt={component.name}
                         className="w-10 h-auto mx-auto opacity-60"
                       />
