@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* Ensure buttons are always clickable */
+button {
+  pointer-events: auto !important;
+  user-select: none;
+}
+
+/* Fix any potential z-index issues */
+.game-modal {
+  z-index: 9999 !important;
+}
+
+.game-modal * {
+  pointer-events: auto;
+}
