@@ -144,49 +144,49 @@ export default function Hero({ onStartGame }: HeroProps) {
             {/* Burger components stacked */}
             <div className="relative flex flex-col items-center">
               <img
-                src="/src/assets/top-bun 1.png"
+                src="/assets/top-bun 1.png"
                 alt="Top Bun"
                 className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-2xl transform hover:rotate-3 transition-transform duration-200"
                 style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))' }}
               />
               <img
-                src="/src/assets/bacon-1.png"
+                src="/assets/bacon-1.png"
                 alt="Bacon"
                 className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-2xl transform -mt-3 sm:-mt-4 hover:rotate-2 transition-transform duration-200"
                 style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))' }}
               />
               <img
-                src="/src/assets/onions.png"
+                src="/assets/onions.png"
                 alt="Onions"
                 className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-2xl transform -mt-3 sm:-mt-4 hover:-rotate-1 transition-transform duration-200"
                 style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))' }}
               />
               <img
-                src="/src/assets/tomato.png"
+                src="/assets/tomato.png"
                 alt="Tomato"
                 className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-2xl transform -mt-3 sm:-mt-4 hover:rotate-1 transition-transform duration-200"
                 style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))' }}
               />
               <img
-                src="/src/assets/letuce.png"
+                src="/assets/letuce.png"
                 alt="Lettuce"
                 className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-2xl transform -mt-3 sm:-mt-4 hover:-rotate-2 transition-transform duration-200"
                 style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))' }}
               />
               <img
-                src="/src/assets/cheese.png"
+                src="/assets/cheese.png"
                 alt="Cheese"
                 className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-2xl transform -mt-3 sm:-mt-4 hover:rotate-1 transition-transform duration-200"
                 style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))' }}
               />
               <img
-                src="/src/assets/meat.png"
+                src="/assets/meat.png"
                 alt="Meat"
                 className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-2xl transform -mt-3 sm:-mt-4 hover:-rotate-1 transition-transform duration-200"
                 style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))' }}
               />
               <img
-                src="/src/assets/bottom-bun.png"
+                src="/assets/bottom-bun.png"
                 alt="Bottom Bun"
                 className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-2xl transform -mt-3 sm:-mt-4 hover:rotate-2 transition-transform duration-200"
                 style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.3))' }}
